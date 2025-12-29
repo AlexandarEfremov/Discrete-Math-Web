@@ -1,12 +1,25 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discrete Math Portal</title>
+    <link rel="stylesheet" href={% static "base.css" %}>
 </head>
 <body>
-   <h1>Discrete Math Protal Landing Page</h1> 
-   <h2>Welcome!</h2>
+    <div class="main-container">
+        <section class="navbar"></section>
+        <section class="main">
+            <ul class="links-list">
+                <li>Sets</li>
+                <li>Functions as relations</li>
+                <li>Combinatorics</li>
+                <li>Boolean functions</li>
+                <li>Predicate logic</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

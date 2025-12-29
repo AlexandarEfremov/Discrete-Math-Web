@@ -1,0 +1,56 @@
+/* RESET START */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body,
+table,
+input,
+textarea,
+button {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+p,
+ul,
+ol {
+    padding-bottom: 1.5em;
+}
+
+ul,
+ol {
+    padding-left: 1.5em;
+}
+
+/* RESET END */
+
+section.main {
+    background-color: red;
+}
