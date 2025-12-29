@@ -51,6 +51,56 @@ ol {
 
 /* RESET END */
 
-section.main {
-    background-color: red;
+/* PARENT CONT */
+div.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div.main-container .navbar {
+    background-color: #636363;
+}
+
+/* NAV LINKS */
+div.main-container .navbar .links-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+
+div.main-container .navbar .links-list a {
+    text-decoration: none;
+}
+
+div.main-container .navbar .links-list li {
+    list-style: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+div.main-container .navbar .links-list li:hover {
+    background-color: white;
+    color: #636363;
+    cursor: pointer;
+    transition: .05s;
+}
+
+/* MAIN CONT */
+div.main-container .main {
+    height: 100%;
+    margin: 1em 1em 0 1em
+}
+
+div.main-container .main .top-cont {
+    width: 40em;
+    margin: auto;
+    text-align: center;
+}
+
+div.main-container .main .top-cont h1 {
+    font-size: 2em;
 }
